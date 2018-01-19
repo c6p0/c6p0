@@ -1,0 +1,160 @@
+###############################################################################################################
+# AUTOMATION_MEDIAPLAYER_AUDIO:
+###############################################################################################################
+#
+# Controls for soundtouch, chromecast audio & google home
+#
+###############################################################################################################
+  - alias: Soundtouch ON or OFF and device or preset change
+
+    trigger:
+      - platform: state
+        entity_id: input_select.soundtouch_presets
+    action:
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.soundtouch_living_room
+            
+          media_content_id: >
+            {% if is_state("input_select.soundtouch_presets", "Preset 1") %}
+              1
+            {% elif is_state("input_select.soundtouch_presets", "Preset 2") %}
+              2
+            {% elif is_state("input_select.soundtouch_presets", "Preset 3") %}
+              3
+            {% elif is_state("input_select.soundtouch_presets", "Preset 4") %}
+              4
+            {% elif is_state("input_select.soundtouch_presets", "Preset 5") %}
+              5
+            {% elif is_state("input_select.soundtouch_presets", "Preset 6") %}
+              6
+            {% endif %}
+          media_content_type: PLAYLIST
+      
+###############################################################################################################
+#
+# Controls for presence
+#
+###############################################################################################################
+  - alias: Detection Presence Entree
+
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.presence_couloir
+        to: "off"
+    condition:
+      condition: template
+      value_template: "{{ states.media_player.tv.state != 'playing' }}"
+    action:
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Intrusion détectée
+     - service: tts.google_say
+       entity_id: media_player.chambre
+       data_template:
+         message: >
+           Intrusion détectée
+
+     - service: notify.notify
+       data_template:
+         title: "Intrusion Entree"
+         message: "Intrusion Entree"
+     - service: notify.gillesnxtosi
+       data_template:
+         title: "Intrusion Entree"
+         message: "Intrusion Entree"
+    # - service: media_player.turn_on
+    #   data:
+    #    entity_id: media_player.tv
+
+     - service: media_extractor.play_media
+       data:
+         entity_id: media_player.tv
+         media_content_id: https://www.youtube.com/watch?v=Ypkv0HeUvTc
+         media_content_type: video/youtube
+
+  - alias: Detection Presence Chambres 
+
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.presence_chambres
+        to: "off"
+    action:
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Intrusion détectée 
+     - service: tts.google_say
+       entity_id: media_player.chambre
+       data_template:
+         message: >
+           Intrusion détectée
+
+     - service: notify.notify
+       data_template:
+         title: "Intrusion chambre"
+         message: "Intrusion chambre"
+     - service: notify.gillesnxtosi
+       data_template:
+         title: "Intrusion chambre" 
+         message: "Intrusion chambre"
+
+###############################################################################################################
+#
+# Status of Security
+#
+###############################################################################################################
+  - alias: Desarmement Presence Entree
+
+    trigger:
+      - platform: state
+        entity_id: automation.detection_presence_chambres 
+        to: "off"
+    action:
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Désactivation de la sécurisation chambres
+
+  - alias: Desarmenent Presence Entree
+
+    trigger:
+      - platform: state
+        entity_id: automation.detection_presence_entree
+        to: "off"
+    action:
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Désactivation de la sécurisation couloir
+
+  - alias: Armement Presence Entree
+
+    trigger:
+      - platform: state
+        entity_id: automation.detection_presence_chambres
+        to: "on"
+    action:
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Activation de la sécurisation chambres
+
+  - alias: Armenent Presence Entree
+
+    trigger:
+      - platform: state
+        entity_id: automation.detection_presence_entree
+        to: "on"
+    action:
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Activation de la sécurisation couloir

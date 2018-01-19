@@ -1,0 +1,12 @@
+  soundtouch_presets:
+    name: Presets
+    options:
+      - 'Preset 1'
+      - 'Preset 2'
+      - 'Preset 3'
+      - 'Preset 4'
+      - 'Preset 5'
+      - 'Preset 6'
+    initial: 'Preset 1'
+    icon: mdi:playlist-play
+
