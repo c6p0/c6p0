@@ -14,4 +14,4 @@
        entity_id: media_player.home_cuisine
        data_template:
          message: >
-           Désactivation de la sécurisation chambres
+           Sécurité chambres désactivée

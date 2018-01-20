@@ -14,5 +14,5 @@
        entity_id: media_player.home_cuisine
        data_template:
          message: >
-           Activation de la sécurisation chambres
+          Sécurité chambres activée 
 
