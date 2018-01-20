@@ -29,6 +29,12 @@ zone:
     radius: 1
     icon: mdi:account-multiple
 
+
+
+nest:
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
+
 # Show links to resources in log and frontend
 #introduction:
 

@@ -16,6 +16,10 @@ default_view:
    - binary_sensor.presence_couloir
    - automation.detection_presence_chambres
    - automation.detection_presence_entree
+   - sensor.kitchen_nest_protect_battery_health
+   - binary_sensor.kitchen_nest_protect_online
+   - sensor.kitchen_nest_protect_smoke_status
+   - sensor.kitchen_nest_protect_co_status
    - switch.wemo
 Bose:
   name: Bose
