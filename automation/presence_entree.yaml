@@ -1,0 +1,56 @@
+###############################################################################################################
+#
+# Controls for presence
+#
+###############################################################################################################
+    alias: Detection Presence Entree
+
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.presence_couloir
+        to: "off"
+    condition: 
+      condition: and
+      conditions:
+        - condition: template
+          value_template: "{{ states.media_player.tv.state != 'playing' }}"
+        - condition: template
+          value_template: "{{ states.media_player.chambre.state != 'playing' }}"
+
+    action:
+     - service: media_extractor.play_media
+       data:
+         entity_id: media_player.chambre
+         media_content_id: https://www.youtube.com/watch?v=5Xix__8yRtE
+         media_content_type: audio/youtube
+
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Intrusion détectée
+     - service: tts.google_say
+       entity_id: media_player.chambre
+       data_template:
+         message: >
+           Intrusion détectée
+
+     - service: notify.notify
+       data_template:
+         title: "Intrusion Entree"
+         message: "Intrusion Entree"
+     - service: notify.gillesnxtosi
+       data_template:
+         title: "Intrusion Entree"
+         message: "Intrusion Entree"
+
+     - service: media_extractor.play_media
+       data:
+         entity_id: media_player.tv
+         media_content_id: https://www.youtube.com/watch?v=Ypkv0HeUvTc 
+         media_content_type: video/youtube
+     - service: media_extractor.play_media
+       data:
+         entity_id: media_player.chambre
+         media_content_id: https://www.youtube.com/watch?v=5Xix__8yRtE
+         media_content_type: audio/youtube

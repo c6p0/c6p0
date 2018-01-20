@@ -1,0 +1,18 @@
+###############################################################################################################
+#
+# Status of Security
+#
+###############################################################################################################
+    alias: Armement Presence Chambre
+
+    trigger:
+      - platform: state
+        entity_id: automation.detection_presence_chambres
+        to: "on"
+    action:
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Activation de la sécurisation chambres
+

@@ -1,0 +1,32 @@
+###############################################################################################################
+# AUTOMATION_MEDIAPLAYER_AUDIO:
+###############################################################################################################
+#
+# Controls for soundtouch, chromecast audio & google home
+#
+###############################################################################################################
+    alias: Soundtouch ON or OFF and device or preset change
+
+    trigger:
+      - platform: state
+        entity_id: input_select.soundtouch_presets
+    action:
+      - service: media_player.play_media
+        data_template:
+          entity_id: media_player.soundtouch_living_room
+            
+          media_content_id: >
+            {% if is_state("input_select.soundtouch_presets", "Preset 1") %}
+              1
+            {% elif is_state("input_select.soundtouch_presets", "Preset 2") %}
+              2
+            {% elif is_state("input_select.soundtouch_presets", "Preset 3") %}
+              3
+            {% elif is_state("input_select.soundtouch_presets", "Preset 4") %}
+              4
+            {% elif is_state("input_select.soundtouch_presets", "Preset 5") %}
+              5
+            {% elif is_state("input_select.soundtouch_presets", "Preset 6") %}
+              6
+            {% endif %}
+          media_content_type: PLAYLIST

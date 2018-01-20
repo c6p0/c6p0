@@ -1,0 +1,18 @@
+###############################################################################################################
+#
+# Status of Security
+#
+###############################################################################################################
+
+    alias: Armenent Presence Entree
+
+    trigger:
+      - platform: state
+        entity_id: automation.detection_presence_entree
+        to: "on"
+    action:
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Activation de la sécurisation couloir

@@ -1,0 +1,17 @@
+###############################################################################################################
+#
+# Status of Security
+#
+###############################################################################################################
+    alias: Desarmement Presence Chambre
+
+    trigger:
+      - platform: state
+        entity_id: automation.detection_presence_chambres 
+        to: "off"
+    action:
+     - service: tts.google_say
+       entity_id: media_player.home_cuisine
+       data_template:
+         message: >
+           Désactivation de la sécurisation chambres
