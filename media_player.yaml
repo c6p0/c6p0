@@ -2,16 +2,21 @@
     host: 192.168.0.18
     port: 8090
     name: Soundtouch Living Room
+    icon: mdi:speaker-wireless
   - platform: soundtouch
     host: 192.168.0.17
     port: 8090
     name: Soundtouch Bath Room
+    icon: mdi:speaker-wireless
   - platform: cast
     host: 192.168.0.20
+    icon: mdi:google-home
   - platform: cast
     host: 192.168.0.29
+    icon: mdi:google-home
   - platform: cast
     host: 192.168.0.27
   - platform: cast
     host: 192.168.0.35
+    icon: mdi:speaker
 

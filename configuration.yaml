@@ -114,6 +114,7 @@ sensor:
     value_template: '{{ value_json.state.temperature / 100 }}'
     scan_interval: 1
     unit_of_measurement: "°C"
+    icon: mdi:nest-protect
 
 binary_sensor:
   - platform: rest
