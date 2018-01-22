@@ -86,10 +86,8 @@
 
         - name: Binary sensors
           entities:
-            - binary_sensor.front_hallway
-            - binary_sensor.kitchen
-            - binary_sensor.master_bedroom
-            - binary_sensor.theatre_room
+            - binary_sensor.presence_chambres
+            - binary_sensor.presence_couloir
           states:
             - state: 'off'
               class: 'info-background'
