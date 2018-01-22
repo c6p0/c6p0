@@ -13,29 +13,38 @@
 
       groups:
 
-        - name: Sensors
+        - name: temperature_cannes
           entities:
-             -  sensor.dark_sky_temperature
-          #text_template: '${entity.state ? entity.state : "unknown"}'
-          # An example of rounding up a number, i.e. a temperature of 90.1 becomes 91
-          text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'  
-          class_template: '
-            var temp = parseFloat(entity.state.replace("°", ""));
-            if (temp < 10)
-              return "temp-low";
-            else if (temp < 30)
-              return "temp-medium";
-            else
-              return "temp-high";
-            '
+             - sensor.netatmo_outdoor_temperature 
+          text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
+          class_template: 'return "static-temp";'
+
+        - name: temperature_salon
+          entities:
+             - sensor.netatmo_indoor_temperature
+          text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
+          class_template: 'return "static-temp";'
+
+        - name: temperature_sdb
+          entities:
+             - sensor.temperature_sdb
+          text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
+          class_template: 'return "static-temp";'
+
 
         - name: Lights
           entities:
-             - light.hallway
-             - light.living_room
-             - light.patio
-             - group.kitchen_lights
-             - group.living_room_lights
+             - light.go
+             - light.sejour
+             - light.mur
+             - light.cuisine
+             - light.salon
+             - light.toilette
+             - light.entree
+             - light.salle_de_bain
+             - light.lit
+             - light.ma_chambre
+             - light.vestibule
           states:
             - state: 'on'
               class: 'light-on'
