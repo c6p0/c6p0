@@ -15,7 +15,9 @@ default_view:
    - sensor.entree
    - sensor.vestibule
    - sensor.toilette
+   - sensor.ma_chambre
    - binary_sensor.presence_chambres
+   - binary_sensor.presence_ma_chambre
    - binary_sensor.presence_couloir
    - automation.detection_presence_chambres
    - automation.detection_presence_entree

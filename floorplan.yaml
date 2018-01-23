@@ -45,6 +45,12 @@
              - sensor.vestibule
           text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
           class_template: 'return "static-temp";'
+        - name: temperature_machambre
+          entities:
+             - sensor.ma_chambre
+          text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
+          class_template: 'return "static-temp";'
+
 
 
 

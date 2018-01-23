@@ -114,28 +114,31 @@ sensor:
     value_template: '{{ value_json.state.temperature / 100 }}'
     scan_interval: 1
     unit_of_measurement: "°C"
-    icon: mdi:nest-protect
   - platform: rest
     resource: !secret entree_resource
     name: "Entree"
     value_template: '{{ value_json.state.temperature / 100 }}'
     scan_interval: 1
     unit_of_measurement: "°C"
-    icon: mdi:nest-protect
   - platform: rest
     resource: !secret toilette_resource
     name: "Toilette"
     value_template: '{{ value_json.state.temperature / 100 }}'
     scan_interval: 1
     unit_of_measurement: "°C"
-    icon: mdi:nest-protect
   - platform: rest
     resource: !secret vestibule_resource
     name: "Vestibule"
     value_template: '{{ value_json.state.temperature / 100 }}'
     scan_interval: 1
     unit_of_measurement: "°C"
-    icon: mdi:nest-protect
+  - platform: rest
+    resource: !secret machambre_temperature
+    name: "Ma Chambre"
+    value_template: '{{ value_json.state.temperature / 100 }}'
+    scan_interval: 1
+    unit_of_measurement: "°C"
+
 
 
 
@@ -150,6 +153,11 @@ binary_sensor:
     name: "Presence Chambres"
     value_template: '{{value_json.state.presence}}' 
     scan_interval: 1 
+  - platform: rest
+    resource: !secret machambre_resource
+    name: "Presence Ma Chambre"
+    value_template: '{{value_json.state.presence}}'
+    scan_interval: 1
 
 wemo:
 
