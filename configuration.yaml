@@ -110,11 +110,34 @@ sensor:
         - battery_vp
   - platform: rest
     resource: !secret sdb_resource
-    name: "Temperature SDB"
+    name: "Salle de Bain"
     value_template: '{{ value_json.state.temperature / 100 }}'
     scan_interval: 1
     unit_of_measurement: "°C"
     icon: mdi:nest-protect
+  - platform: rest
+    resource: !secret entree_resource
+    name: "Entree"
+    value_template: '{{ value_json.state.temperature / 100 }}'
+    scan_interval: 1
+    unit_of_measurement: "°C"
+    icon: mdi:nest-protect
+  - platform: rest
+    resource: !secret toilette_resource
+    name: "Toilette"
+    value_template: '{{ value_json.state.temperature / 100 }}'
+    scan_interval: 1
+    unit_of_measurement: "°C"
+    icon: mdi:nest-protect
+  - platform: rest
+    resource: !secret vestibule_resource
+    name: "Vestibule"
+    value_template: '{{ value_json.state.temperature / 100 }}'
+    scan_interval: 1
+    unit_of_measurement: "°C"
+    icon: mdi:nest-protect
+
+
 
 binary_sensor:
   - platform: rest

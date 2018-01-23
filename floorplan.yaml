@@ -16,20 +16,36 @@
         - name: temperature_cannes
           entities:
              - sensor.netatmo_outdoor_temperature 
-          text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
+          text_template: '${entity.state ? Math.ceil(entity.state) + "°C": "undefined"}'
           class_template: 'return "static-temp";'
 
         - name: temperature_salon
           entities:
              - sensor.netatmo_indoor_temperature
-          text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
+          text_template: '${entity.state ? Math.ceil(entity.state) + "°C": "undefined"}'
           class_template: 'return "static-temp";'
 
         - name: temperature_sdb
           entities:
-             - sensor.temperature_sdb
-          text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
+             - sensor.salle_de_bain
+          text_template: '${entity.state ? Math.ceil(entity.state) + "°C": "undefined"}'
           class_template: 'return "static-temp";'
+        - name: temperature_toilette
+          entities:
+             - sensor.toilette
+          text_template: '${entity.state ? Math.ceil(entity.state) + "°C": "undefined"}'
+          class_template: 'return "static-temp";'
+        - name: temperature_entree
+          entities:
+             - sensor.entree
+          text_template: '${entity.state ? Math.ceil(entity.state) + "°C": "undefined"}'
+          class_template: 'return "static-temp";'
+        - name: temperature_vestibule
+          entities:
+             - sensor.vestibule
+          text_template: '${entity.state ? Math.ceil(entity.state) + "°C": "undefined"}'
+          class_template: 'return "static-temp";'
+
 
 
         - name: Lights
