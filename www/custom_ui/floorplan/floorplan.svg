@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="166.50521"
+     inkscape:cx="537.4065"
      inkscape:cy="569.28478"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -93,12 +93,12 @@
        x="97.392586"
        y="284.79892" />
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.36155722;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3666735;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
        id="rect840-0-5"
        width="2.2393432"
-       height="75.86438"
+       height="78.026634"
        x="98.259529"
-       y="209.20392" />
+       y="207.04167" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.2737025;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
        id="rect840-4-1-5"
@@ -119,7 +119,7 @@
        width="37.722782"
        height="2.2307744"
        x="242.73555"
-       y="284.18588" />
+       y="284.71506" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.53636503;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
        id="rect840-0-9"
@@ -167,14 +167,14 @@
        id="rect840-0-5-4-5"
        width="2.325309"
        height="43.341827"
-       x="167.8889"
+       x="168.94722"
        y="119.45959" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.28063408;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
        id="rect840-0-5-4-5-2"
        width="2.3185091"
        height="44.144501"
-       x="128.83459"
+       x="129.36375"
        y="118.97449" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.22329235;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
@@ -230,7 +230,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.05555557px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24966237;-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       style="font-style:normal;font-weight:normal;font-size:4.9388889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.24966237;-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
        x="216.36911"
        y="218.90311"
        id="sensor.netatmo_indoor_temperature"
@@ -240,10 +240,10 @@
          id="tspan1805"
          x="216.36911"
          y="218.90311"
-         style="stroke-width:0.24966237;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:7.05555557px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;">a</tspan></text>
+         style="stroke-width:0.24966237;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.9388889px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;fill:#0000ff;fill-opacity:1;">a</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24966237"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.24966237;"
        x="134.10506"
        y="190.69455"
        id="sensor.entree"
@@ -253,10 +253,10 @@
          id="tspan1805-9"
          x="134.10506"
          y="190.69455"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.24966237">b</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;stroke-width:0.24966237;fill:#0000ff;fill-opacity:1;">b</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24966237"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.24966237;"
        x="81.990425"
        y="191.116"
        id="sensor.vestibule"
@@ -266,10 +266,10 @@
          id="tspan1805-9-9"
          x="81.990425"
          y="191.116"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.24966237">c</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;stroke-width:0.24966237;fill:#0000ff;fill-opacity:1;">c</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24966237"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.24966237;"
        x="83.301399"
        y="148.08965"
        id="sensor.toilette"
@@ -279,10 +279,10 @@
          id="tspan1805-9-8"
          x="83.301399"
          y="148.08965"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.24966237">d</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;stroke-width:0.24966237;fill:#0000ff;fill-opacity:1;">d</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24966237"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.24966237;"
        x="32.666599"
        y="172.53725"
        id="sensor.salle_de_bain"
@@ -292,10 +292,10 @@
          id="tspan1805-9-8-2"
          x="32.666599"
          y="172.53725"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.24966237">e</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;stroke-width:0.24966237;fill:#0000ff;fill-opacity:1;">e</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24966235"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.24966235;"
        x="33.350777"
        y="108.41117"
        id="sensor.netatmo_outdoor_temperature"
@@ -305,10 +305,10 @@
          id="tspan1805-91"
          x="33.350777"
          y="108.41117"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.24966235">f</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;stroke-width:0.24966235;fill:#0000ff;fill-opacity:1;">f</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.24966235"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.24966235;"
        x="121.26117"
        y="256.48599"
        id="sensor.ma_chambre"
@@ -318,6 +318,340 @@
          id="tspan1805-6"
          x="121.26117"
          y="256.48599"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.24966235">f</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9388889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;stroke-width:0.24966235;fill:#0000ff;fill-opacity:1;">f</tspan></text>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,265.64139,269.51273)"
+       id="light.mur"
+       inkscape:label="#g834">
+      <g
+         id="g10">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,175.68306,268.98356)"
+       id="light.salon"
+       inkscape:label="#g834-3">
+      <g
+         id="g10-7">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-6"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-1"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-4"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-0"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,173.77832,214.97812)"
+       id="light.cuisine"
+       inkscape:label="#g834-9">
+      <g
+         id="g10-5">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-1"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-5"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-0"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-5"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,265.64139,238.2919)"
+       id="light.sejour"
+       inkscape:label="#g834-90">
+      <g
+         id="g10-3">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-5"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-51"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-5"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-4"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,265.64139,153.62523)"
+       id="light.go"
+       inkscape:label="#g834-5">
+      <g
+         id="g10-30">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-7"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-7"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-8"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-1"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,105.47996,268.71892)"
+       id="g834-1">
+      <g
+         id="light.ma_chambre"
+         inkscape:label="#g10-8">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-73"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-9"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-82"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-50"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,126.64663,268.71892)"
+       id="light.lit"
+       inkscape:label="#g834-15">
+      <g
+         id="g10-6">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-731"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-8"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-1"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-2"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,147.28413,124.78554)"
+       id="light.entree"
+       inkscape:label="#g834-0">
+      <g
+         id="g10-82">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-0"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-16"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-3"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-6"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,111.8658,125.01979)"
+       id="light.toilette"
+       inkscape:label="#g834-2">
+      <g
+         id="g10-68">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-51"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-3"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-84"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-14"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,33.871477,129.41478)"
+       id="light.salle_de_bain"
+       inkscape:label="#g834-6">
+      <g
+         id="g10-9">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-2"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-18"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-32"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-10"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,110.80752,177.93646)"
+       id="light.vestibule"
+       inkscape:label="#g834-91">
+      <g
+         id="g10-4">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-8"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-38"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-43"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-7"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.26230708;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-4-1-5-6-4-8"
+       width="38.435787"
+       height="2.3264241"
+       x="51.522545"
+       y="284.61942" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.31180647;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-4-1-5-6-4-8-6"
+       width="54.31078"
+       height="2.3264241"
+       x="189.10588"
+       y="284.61942" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.26230708;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-4-1-5-6-4-8-3"
+       width="38.435787"
+       height="2.3264241"
+       x="113.96423"
+       y="284.61942" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.26230708;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-4-1-5-6-4-8-0"
+       width="38.435787"
+       height="2.3264241"
+       x="130.89755"
+       y="117.08334" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.26230708;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-4-1-5-6-4-8-7"
+       width="38.435787"
+       height="2.3264241"
+       x="88.564209"
+       y="160.79442" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.2784785;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-0-5-4-5-7"
+       width="2.325309"
+       height="43.341827"
+       x="169.12466"
+       y="159.41667" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.2784785;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-0-5-4-5-7-9"
+       width="2.325309"
+       height="43.341827"
+       x="68.262497"
+       y="163.69984" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.2784785;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-0-5-4-5-7-6"
+       width="2.325309"
+       height="43.341827"
+       x="129.43721"
+       y="163.17068" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.39215686;stroke:#000000;stroke-width:0.32664362;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-4-1-5-6-4-8-6-0"
+       width="59.602451"
+       height="2.3264241"
+       x="67.397545"
+       y="207.04167" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.12670331;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="rect840-4-1-5-6-4-0"
+       width="8.9679174"
+       height="2.3264241"
+       x="95.25"
+       y="207.04167" />
   </g>
 </svg>
