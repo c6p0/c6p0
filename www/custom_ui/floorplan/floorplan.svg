@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="537.4065"
-     inkscape:cy="569.28478"
+     inkscape:zoom="1.4"
+     inkscape:cx="536.69221"
+     inkscape:cy="397.85621"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -57,6 +57,54 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-87)">
+    <rect
+       style="opacity:1;fill-opacity:0.46700511;stroke:#000000;stroke-width:0.48081696;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="group.toilette"
+       width="58.208359"
+       height="41.804169"
+       x="71.437477"
+       y="119.72916"
+       inkscape:label="#rect1063-5" />
+    <rect
+       style="opacity:1;fill-opacity:0.46700511;stroke:#000000;stroke-width:0.48986116;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="group.vestibule"
+       width="58.208359"
+       height="43.391644"
+       x="70.908302"
+       y="163.65002"
+       inkscape:label="#rect1063-4" />
+    <rect
+       style="opacity:1;fill-opacity:0.46700511;stroke:#000000;stroke-width:0.69583356;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="group.ma_chambre"
+       width="68.791679"
+       height="74.083321"
+       x="100.54166"
+       y="209.6875"
+       inkscape:label="#rect1063-3" />
+    <rect
+       style="opacity:1;fill-opacity:0.46700511;stroke:#000000;stroke-width:0.61083132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="group.bathroom"
+       width="44.979172"
+       height="87.312515"
+       x="23.283327"
+       y="119.72916"
+       inkscape:label="#rect1063-2" />
+    <rect
+       style="opacity:1;fill-opacity:0.46700511;stroke:#000000;stroke-width:0.55432034;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="group.entree"
+       width="37.041664"
+       height="87.3125"
+       x="132.29167"
+       y="119.72916"
+       inkscape:label="#rect1063-1" />
+    <rect
+       style="opacity:1;fill-opacity:0.46700507;stroke:#000000;stroke-width:1.2842977;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615;"
+       id="group.living_room"
+       width="105.83332"
+       height="164.04169"
+       x="171.9792"
+       y="120.25835"
+       inkscape:label="#rect1063" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.43520582;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
        id="rect840"

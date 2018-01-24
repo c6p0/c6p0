@@ -49,3 +49,10 @@ Lights:
   view: yes
   entities:
     - group.all_lights
+
+Living Room: light.go,light.mur,light.cuisine,light.salon,light.sejour
+Ma Chambre: light.lit,light.ma_chambre
+Bathroom: light.salle_de_bain
+Vestibule: light.vestibule
+Toilette: light.toilette
+Entree: light.entree

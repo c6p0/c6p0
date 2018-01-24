@@ -51,7 +51,19 @@
           text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
           class_template: 'return "static-temp";'
 
-
+        - name: Rooms
+          entities:
+             - group.living_room
+             - group.vestibule
+             - group.toilette
+             - group.entree
+             - group.ma_chambre
+             - group.bathroom
+          states:
+            - state: 'on'
+              class: 'room--on'
+            - state: 'off'
+              class: 'room--off'
 
 
         - name: Lights
