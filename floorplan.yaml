@@ -17,39 +17,107 @@
           entities:
              - sensor.netatmo_outdoor_temperature 
           text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
-          class_template: 'return "static-temp";'
+          class_template: '
+            var temp = parseFloat(entity.state.replace("°", ""));
+            if (temp < 18)
+              return "temp-low";
+            else if (temp < 20)
+              return "temp-medium";
+            else
+              return "temp-high";
+           '          
 
         - name: temperature_salon
           entities:
              - sensor.netatmo_indoor_temperature
           text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
-          class_template: 'return "static-temp";'
+          text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
+          class_template: '
+            var temp = parseFloat(entity.state.replace("°", ""));
+            if (temp < 18)
+              return "temp-low";
+            else if (temp < 20)
+              return "temp-medium";
+            else
+              return "temp-high";
+           '
+
 
         - name: temperature_sdb
           entities:
              - sensor.salle_de_bain
           text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
-          class_template: 'return "static-temp";'
+          text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
+          class_template: '
+            var temp = parseFloat(entity.state.replace("°", ""));
+            if (temp < 18)
+              return "temp-low";
+            else if (temp < 20)
+              return "temp-medium";
+            else
+              return "temp-high";
+           '
+
         - name: temperature_toilette
           entities:
              - sensor.toilette
           text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
-          class_template: 'return "static-temp";'
+          text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
+          class_template: '
+            var temp = parseFloat(entity.state.replace("°", ""));
+            if (temp < 18)
+              return "temp-low";
+            else if (temp < 20)
+              return "temp-medium";
+            else
+              return "temp-high";
+           '
+
         - name: temperature_entree
           entities:
              - sensor.entree
           text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
-          class_template: 'return "static-temp";'
+          text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
+          class_template: '
+            var temp = parseFloat(entity.state.replace("°", ""));
+            if (temp < 18)
+              return "temp-low";
+            else if (temp < 20)
+              return "temp-medium";
+            else
+              return "temp-high";
+           '
+
         - name: temperature_vestibule
           entities:
              - sensor.vestibule
           text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
-          class_template: 'return "static-temp";'
+          text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
+          class_template: '
+            var temp = parseFloat(entity.state.replace("°", ""));
+            if (temp < 18)
+              return "temp-low";
+            else if (temp < 20)
+              return "temp-medium";
+            else
+              return "temp-high";
+           '
+
         - name: temperature_machambre
           entities:
              - sensor.ma_chambre
           text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
-          class_template: 'return "static-temp";'
+          text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
+          class_template: '
+            var temp = parseFloat(entity.state.replace("°", ""));
+            if (temp < 18)
+              return "temp-low";
+            else if (temp < 20)
+              return "temp-medium";
+            else
+              return "temp-high";
+           '
+
 
         - name: Rooms
           entities:

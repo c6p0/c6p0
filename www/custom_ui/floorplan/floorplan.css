@@ -114,8 +114,8 @@ svg, svg * {
 
 /* Temperature sensor */
 
-.temp-very-low-background {
-  fill: #d9edf7 !important;
+.temp-low {
+  fill: #0042f9 !important;
   fill-opacity: 1 !important;
 }
 
@@ -124,13 +124,13 @@ svg, svg * {
   fill-opacity: 1 !important;
 }
 
-.temp-average-background {
-  fill: #dff0d8 !important;
+.temp-medium {
+  fill: #1df900 !important;
   fill-opacity: 1 !important;
 }
 
-.temp-very-high-background {
-  fill: #f2dede !important;
+.temp-high {
+  fill: #f90000 !important;
   fill-opacity: 1 !important;
 }
 
