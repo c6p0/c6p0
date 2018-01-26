@@ -42,6 +42,21 @@
               return "temp-high";
            '
 
+        - name: temperature_chambre_amis
+          entities:
+             - sensor.chambre_amis
+          text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
+          text_template: '${entity.state ? (entity.state) + "°C": "undefined"}'
+          class_template: '
+            var temp = parseFloat(entity.state.replace("°", ""));
+            if (temp < 18)
+              return "temp-low";
+            else if (temp < 20)
+              return "temp-medium";
+            else
+              return "temp-high";
+           '
+
 
         - name: temperature_sdb
           entities:
@@ -127,6 +142,7 @@
              - group.entree
              - group.ma_chambre
              - group.bathroom
+             - group.chambre_amis
           states:
             - state: 'on'
               class: 'room--on'
@@ -147,6 +163,7 @@
              - light.lit
              - light.ma_chambre
              - light.vestibule
+             - light.amigos
           states:
             - state: 'on'
               class: 'light-on'

@@ -138,6 +138,12 @@ sensor:
     value_template: '{{ value_json.state.temperature / 100 }}'
     scan_interval: 1
     unit_of_measurement: "°C"
+  - platform: rest
+    resource: !secret amigos_temperature
+    name: "Chambre Amis"
+    value_template: '{{ value_json.state.temperature / 100 }}'
+    scan_interval: 1
+    unit_of_measurement: "°C"
 
 
 
@@ -156,6 +162,11 @@ binary_sensor:
   - platform: rest
     resource: !secret machambre_resource
     name: "Presence Ma Chambre"
+    value_template: '{{value_json.state.presence}}'
+    scan_interval: 1
+  - platform: rest
+    resource: !secret amigos_resource
+    name: "Presence Chambre Amis"
     value_template: '{{value_json.state.presence}}'
     scan_interval: 1
 

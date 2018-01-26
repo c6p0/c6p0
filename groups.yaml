@@ -16,9 +16,11 @@ default_view:
    - sensor.vestibule
    - sensor.toilette
    - sensor.ma_chambre
+   - sensor.chambre_amis
    - binary_sensor.presence_chambres
    - binary_sensor.presence_ma_chambre
    - binary_sensor.presence_couloir
+   - binary_sensor.presence_chambre_amis
    - automation.detection_presence_chambres
    - automation.detection_presence_entree
    - sensor.kitchen_nest_protect_battery_health
@@ -56,3 +58,4 @@ Bathroom: light.salle_de_bain
 Vestibule: light.vestibule
 Toilette: light.toilette
 Entree: light.entree
+Chambre Amis: light.amigos

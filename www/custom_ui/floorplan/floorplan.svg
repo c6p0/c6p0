@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
      inkscape:cx="536.69221"
-     inkscape:cy="397.85621"
+     inkscape:cy="322.67098"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -701,5 +701,51 @@
        height="2.3264241"
        x="95.25"
        y="207.04167" />
+    <rect
+       style="opacity:1;fill-opacity:0.46700511;stroke:#000000;stroke-width:0.72210062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.00507615"
+       id="group.chambre_amis"
+       width="74.083351"
+       height="74.083328"
+       x="23.812485"
+       y="209.6875"
+       inkscape:label="#rect1063-31" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.24966234"
+       x="54.061413"
+       y="256.87506"
+       id="sensor.chambre_amis"
+       transform="scale(1.0293139,0.97152093)"
+       inkscape:label="#text1807-17"><tspan
+         sodipodi:role="line"
+         id="tspan1805-6-4"
+         x="54.061413"
+         y="256.87506"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0000ff;fill-opacity:1;stroke-width:0.24966234">g</tspan></text>
+    <g
+       transform="matrix(0.08467388,0,0,0.09995386,84.313295,268.71892)"
+       id="light.amigos"
+       inkscape:label="#g834-1-5">
+      <g
+         id="light.ma_chambre-1"
+         inkscape:label="#g10-8">
+        <path
+           inkscape:connector-curvature="0"
+           id="path2-73-9"
+           d="M 37.44,88.393 H 62.558 C 62.383,92.071 59.979,95 57.038,95 H 42.96 c -2.94,0 -5.345,-2.929 -5.52,-6.607 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4-9-1"
+           d="m 66.712,79.823 c 1.202,0 2.186,1.328 2.186,2.95 0,1.622 -0.984,2.936 -2.186,2.936 H 66.1 33.899 33.287 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 33.381 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6-82-7"
+           d="m 66.668,71.177 c 1.202,0 2.175,1.328 2.175,2.95 0,1.622 -0.973,2.936 -2.175,2.936 H 33.287 33.243 c -1.202,0 -2.186,-1.313 -2.186,-2.936 0,-1.623 0.984,-2.95 2.186,-2.95 h 1.935 29.73 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path8-50-9"
+           d="M 49.999,5 C 49.616,5 49.234,5.011 48.84,5.022 33.702,5.601 21.307,17.909 20.619,33.036 c -0.284,6.274 1.377,12.34 4.798,17.543 1.771,2.678 3.312,7.28 4.602,13.685 0.492,2.47 2.667,4.252 5.159,4.252 h 29.73 c 2.47,0 4.634,-1.749 5.148,-4.175 1.41,-6.624 3.017,-11.389 4.787,-14.166 2.984,-4.711 4.569,-10.154 4.569,-15.761 C 79.413,18.193 66.22,5 49.999,5 Z m 22.495,21.481 c -0.139,0.059 -0.283,0.087 -0.425,0.087 -0.426,0 -0.831,-0.251 -1.007,-0.668 -2.636,-6.233 -7.829,-11.019 -14.249,-13.131 -0.573,-0.188 -0.885,-0.806 -0.696,-1.38 0.188,-0.573 0.805,-0.887 1.38,-0.696 7.019,2.309 12.697,7.541 15.579,14.355 0.234,0.557 -0.026,1.198 -0.582,1.433 z" />
+      </g>
+    </g>
   </g>
 </svg>
